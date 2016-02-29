@@ -1,4 +1,4 @@
-Maintenance plugin 0.6.2
+Maintenance plugin 0.6.3
 ==================
 Support for maintenance pages.
 
@@ -9,11 +9,9 @@ How do I install this?
 
 To uninstall delete the plugin.
 
-How to make a maintenance page?
--------------------------
-Set `Status: maintenance` in the settings at the top of a page. The page will no longer be publicly accessible. Leave the maintenance page up until you are done performing maintenance. This lets site visitors know why the page is unavailable.
-
-To use the plugin for a global maintentance setting open file system/config/config.ini, add Status: maintenance
+How to enable maintenance status?
+---------------------------------
+To put the entire website into maintenance status open file `system/config/config.ini` and add `Status: maintenance`. To use this on an individual page set `Status: maintenance` in the settings at the top of a page. Leave the maintenance status until you are done performing maintenance. This lets visitors know why your website is unavailable. You can continue to edit your website in a browser and the file system.
 
 Example
 -------
