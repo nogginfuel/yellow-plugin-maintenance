@@ -1,4 +1,4 @@
 ---
 Title: Service unavailable
 ---
-@pageerror
+We're temporarily down for maintenance. Stay tuned for something great!

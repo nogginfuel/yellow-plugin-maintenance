@@ -21,8 +21,7 @@ class YellowMaintenance
 		$maintenance = $this->yellow->config->get("status")=="maintenance" || $this->yellow->page->get("status")=="maintenance";
 		if($maintenance && $this->yellow->getRequestHandler()=="core")
 		{
-			$this->yellow->page->error($this->yellow->config->get("maintenanceStatusCode"),
-				"We're temporarily down for maintenance. Stay tuned for something great!");
+			$this->yellow->page->error($this->yellow->config->get("maintenanceStatusCode"));
 		}
 	}
 }
