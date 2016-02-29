@@ -6,8 +6,9 @@ How do I install this?
 ----------------------
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download [maintenance.php](maintenance.php?raw=true), copy it into your `system/plugins` folder.  
+3. Download [page-error-503.txt](page-error-503.txt?raw=true), copy it into your `system/config` folder.  
 
-To uninstall delete the plugin.
+To uninstall delete the plugin files.
 
 How to enable maintenance status?
 ---------------------------------

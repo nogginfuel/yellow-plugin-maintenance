@@ -12,7 +12,7 @@ class YellowMaintenance
 	function onLoad($yellow)
 	{
 		$this->yellow = $yellow;
-		$this->yellow->config->setDefault("maintenanceStatusCode", "500");
+		$this->yellow->config->setDefault("maintenanceStatusCode", "503");
 	}
 	
 	// Handle page parsing
