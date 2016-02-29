@@ -1,6 +1,6 @@
 Maintenance plugin 0.6.3
 ========================
-Support for maintenance status.
+Maintenance status for entire site or single page
 
 How do I install this?
 ----------------------
