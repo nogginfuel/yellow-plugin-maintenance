@@ -5,7 +5,7 @@
 // Maintenance status plugin
 class YellowMaintenance
 {
-	const Version = "0.6.3";
+	const VERSION = "0.6.3";
 	var $yellow;			//access to API
 	
 	// Handle initialisation
@@ -26,5 +26,5 @@ class YellowMaintenance
 	}
 }
 
-$yellow->plugins->register("maintenance", "YellowMaintenance", YellowMaintenance::Version);
+$yellow->plugins->register("maintenance", "YellowMaintenance", YellowMaintenance::VERSION);
 ?>

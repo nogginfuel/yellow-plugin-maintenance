@@ -4,9 +4,9 @@ Maintenance status for entire site or single page.
 
 How do I install this?
 ----------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download [maintenance.php](maintenance.php?raw=true), copy it into your `system/plugins` folder.  
-3. Download [page-error-503.txt](page-error-503.txt?raw=true), copy it into your `system/config` folder.  
+1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
+2. [Download plugin](https://github.com/nogginfuel/yellow-plugin-maintenance/archive/master.zip). If you are using Safari, right click and select 'Download file as'.
+3. Copy `master.zip` into your `system/plugins` folder.
 
 To uninstall delete the plugin files.
 
