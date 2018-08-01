@@ -1,8 +1,8 @@
 <?php
-// Copyright (c) 2016 nogginfuel, http://nogginfuel.com
+// Maintenance plugin, https://github.com/nogginfuel/yellow-plugin-maintenance
+// Copyright (c) 2016 nogginfuel, http://jeflippiatt.com
 // This file may be used and distributed under the terms of the public license.
 
-// Maintenance status plugin
 class YellowMaintenance
 {
 	const VERSION = "0.6.3";
