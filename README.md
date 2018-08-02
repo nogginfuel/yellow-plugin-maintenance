@@ -16,7 +16,7 @@ To use this plugin open file `system/config/config.ini` and add `Status: mainten
 
 ## Example
 
-Content file with maintenance status:
+Content file with individual maintenance status:
 
     ---
     Title: Example page
